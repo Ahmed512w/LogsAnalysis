@@ -1,13 +1,17 @@
 # Logs Analysis Project
-Building an informative summary from logs by postgresql database queries. Interacting with a live database both from the command line and from the python code.
+Building an internal reporting tool that will use information from the database to discover what kind of articles
+the site's readers like.
 This project is a part of the Udacity's Full Stack Web Developer Nanodegree.
 
-## Technologies used
-1. PostgreSQL
-2. Writing Python code with DB-API
-3. Linux-based virtual machine (VM) Vagrant
+## The task
+The task is to create a reporting tool that prints out reports (in plain text) based on the data in the database.
+This reporting tool is a Python program using the ```psycopg2``` module to connect to the database.
+Here are the questions the reporting tool should answer
+   1. What are the most popular three articles of all time?
+   2. Who are the most popular article authors of all time?
+   3. On which days did more than 1% of requests lead to errors?
 
-## System setup and how to view this project
+## System setup
 This project makes use of Udacity's Linux-based virtual machine (VM) configuration which includes all of the necessary software to run the application.
 1. Download [Vagrant](https://www.vagrantup.com/) and install.
 2. Download [Virtual Box](https://www.virtualbox.org/) and install. 
