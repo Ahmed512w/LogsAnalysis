@@ -15,7 +15,7 @@ Here are the questions the reporting tool should answer
 This project makes use of Udacity's Linux-based virtual machine (VM) configuration which includes all of the necessary software to run the application.
 1. Download [Vagrant](https://www.vagrantup.com/downloads.html) and install.
 2. Download [Virtual Box](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) and install. 
-3. download the VM configuration file [FSND-Virtual-Machine.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip) This will give you a directory called FSND-Virtual-Machine.
+3. Download the VM configuration file [FSND-Virtual-Machine.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip).
 4. Download the [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) (extract from newsdata.zip) and **LogsAnalysis.py** files from the respository and move them to your **vagrant** directory within your VM.
 
 #### Run these commands from the terminal in the folder where your vagrant is installed in: 
