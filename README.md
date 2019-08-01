@@ -66,7 +66,9 @@ WHERE requests.day = request_errors.day;
 ````
 
 ## Helpful Resources
-* [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
-* [PostgreSQL 9.5 Documentation](https://www.postgresql.org/docs/9.5/static/index.html)
 * [Vagrant](https://www.vagrantup.com/downloads)
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+* [The select statement](https://www.postgresql.org/docs/9.5/static/sql-select.html)
+* [SQL string functions](https://www.postgresql.org/docs/9.5/static/functions-string.html)
+* [Aggregate functions](https://www.postgresql.org/docs/9.5/static/functions-aggregate.html)
