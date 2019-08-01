@@ -27,7 +27,7 @@ This project makes use of Udacity's Linux-based virtual machine (VM) configurati
 CREATE VIEW log_article_auther AS
 SELECT log.id AS log,
        articles.slug AS article,
-	   authors.name  AS author
+       authors.name  AS author
 FROM  log, articles, authors
 WHERE log.path = CONCAT( '/article/', articles.slug )
 AND   articles.author = authors.id;
