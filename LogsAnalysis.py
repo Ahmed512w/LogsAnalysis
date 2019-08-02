@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import psycopg2
+import psycopg2, sys
 
 DBNAME = "news"
 
@@ -29,7 +29,18 @@ errors_percent = '''
     '''
 
 def get(query):
-    db = psycopg2.connect(database=DBNAME)
+    try:
+        db = psycopg2.connect(
+            user = "postgres",
+            password = "sql",
+            host = "127.0.0.1",
+            port = "5432",
+            database = DBNAME
+            )
+    except psycopg2.Error as error:
+        print( error )
+        sys.exit()
+
     c = db.cursor()
     c.execute(query)
     result = c.fetchall()
